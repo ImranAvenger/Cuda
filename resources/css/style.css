@@ -156,6 +156,24 @@ header {
 .main-nav li.active a {
     background: rgb(100, 58, 121);
 }
+
+/* STICKY NAVIGATION */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #87509c;
+    padding: 1rem 0;
+    box-shadow: 0 .2rem .5rem rgba(255, 255, 255, 0.57);
+}
+.sticky .logo {
+    margin-top: 0.2rem;
+}
+.sticky .main-nav {
+    margin-top: 0;
+}
 .hero-text-box {
     position: absolute;
     top: 50%;
@@ -448,4 +466,29 @@ svg.ui-ux circle {
 }
 .btn-submit:hover {
     cursor: pointer;
+}
+
+
+/* ====================*/
+/* FOOTER SECTION */
+/* ====================*/
+
+.footer-section {
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.2);
+}
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+.footer-section li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+.footer-section li:hover a {
+    color: #30bae7;
 }
