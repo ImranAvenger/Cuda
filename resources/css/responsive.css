@@ -80,6 +80,11 @@
         font-size: 2rem;
     }
 }
+@media only screen and (max-width: 720px) {
+    header {
+        height: 100vh;
+    }
+}
 @media only screen and (max-width: 600px) {
     header {
         height: 90vh;
